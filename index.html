@@ -3,41 +3,69 @@
 <head>
   <meta charset="utf-8">
   <title>Chinese Zodiac</title>
+  <link href="css/main.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 	<header>
-		<h1>生肖</h1>
-		<h2>Chinese Zodiac</h2>
+		<img class="medallion" src="images/medallion.svg">
+		<div class="character">
+			<h1>生肖</h1>
+			<h2>Chinese Zodiac</h2>
+		</div>
 	</header>
 
 	<nav>
-		<ol>
-			<li>龍 — Dragon</li>
-			<li>羊 — Goat</li>
-			<li>雞 — Rooster</li>
-			<li>牛 — Ox</li>
+		<ol class="nav">
+			<li><a href="#">龍 — Dragon</a></li>
+			<li><a href="#">羊 — Goat</a></li>
+			<li><a href="#">雞 — Rooster</a></li>
+			<li><a href="#">牛 — Ox</a></li>
 		</ol>
+		</nav>
 	</nav>
 
-<figure>
-	<img src="images/banner.jpg" class"banner">
-	<figcaption>Shēngxiào</figcaption>
-</figure>
+	<div class="banner">
+		<img src="images/banner.jpg" alt="">
+		<div class="banner-content">
+			<h3>Shēngxiào</h3>
+		</div>
+	</div>
 
-<p> The Shēngxiào literally “birth likeness”, is a scheme and systematic plan of future action that relates each year to an animal and its reputed attributes according to a 12-year mathematical cycle and it remains popular in several East Asian countries including China, Vietnam, Korea, Japan, and Thailand.</p>
+	<p> The Shēngxiào literally “birth likeness”, is a scheme and systematic plan of future action that relates each year to an animal and its reputed attributes according to a 12-year mathematical cycle and it remains popular in several East Asian countries including China, Vietnam, Korea, Japan, and Thailand.</p>
 
-<h3>Dragon</h3>
-<p>Magnanimous, stately, vigorous, strong, proud, noble, direct, dignified, passionate.</p>
+	<div class="dragon">
+		<h3>Dragon</h3>
+		<figure class="dragon-symbol">
+			<img src="images/dragon-symbol.svg">
+		</figure>
+		<figure class="dragon-image">
+			<img src="images/dragon.svg">
+		</figure>
+		<p>Magnanimous, stately, vigorous, strong, proud, noble, direct, dignified, passionate.</p>
+	</div>
 
-<h3>Goat</h3>
-<p>Gentle, softhearted, considerate, attractive, hardworking, persistent, thrift.</p>
+	<div class="goat">
+		<h3>Goat</h3>
 
-<h3>Rooster</h3>
-<p>Deep thinkers, honest, bright, communicative, ambitious, capable, warm-hearted.</p>
+		<figure class="goat-image">
+			<img src="images/goat.svg">
+		</figure>
 
-<h3>Ox</h3>
-<p>Persistent, simple, honest, straightforward, industrious, patient, cautious.</p>
+		<figure class="goat-symbol">
+			<img src="images/goat-symbol.svg">
+		</figure>
+
+		<p>Gentle, softhearted, considerate, attractive, hardworking, persistent, thrift.</p>
+	</div>
+
+	<div class="rooster">
+	<h3>Rooster</h3>
+	<p>Deep thinkers, honest, bright, communicative, ambitious, capable, warm-hearted.</p>
+	</div>
+	<h3>Ox</h3>
+	<p>Persistent, simple, honest, straightforward, industrious, patient, cautious.</p>
 
 </body>
 </html>
